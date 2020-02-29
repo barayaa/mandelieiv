@@ -1,0 +1,74 @@
+tr{
+    display: flex;
+    width: 100%;
+    min-height: 55%;
+}
+
+table caption{
+    text-decoration: underline;
+    font-weight: bold;
+}
+td{
+    height: 80px;
+    width: 10%;
+    margin: auto;
+}
+.ion{
+    text-align: center;
+    width: 100%;
+    height: 75px;
+    word-wrap: break-word;
+}
+
+.Iname{
+    font-size: 0.5em;
+}
+.Sion{
+    font-size: large;
+}
+
+.Inumber{
+    font-size: 0.1em;
+    font-style: unset;
+}
+.Vion
+{
+    font-size: 0.4em;
+    text-align: justify;
+}
+
+.sautDeLine{
+    height: 50px;
+}
+
+.tableau{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+@media screen and (max-width: 850pxpx) {
+   body  { 
+       display: block;
+       height: auto;
+
+   };
+    table,
+    tr,
+    td {
+      display:block;
+      width: auto!important;
+      height: auto;
+    }
+  }
+  @media screen and (max-width: 850pxpx){
+    .tableau{
+     display: inline;
+      width: auto;
+      justify-content: center;
+      font-size: 5px;
+      height: auto ;
+  }
+    }
+
